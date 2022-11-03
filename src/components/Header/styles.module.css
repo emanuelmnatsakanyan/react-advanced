@@ -1,0 +1,16 @@
+.header {
+    background-color: black;
+    padding: 20px 0;
+    margin-bottom: 100px;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}

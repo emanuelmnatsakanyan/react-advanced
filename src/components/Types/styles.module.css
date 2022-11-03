@@ -1,0 +1,22 @@
+.types__wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    height: fit-content;
+    
+}
+.type {
+    color: black;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.type:not(.type:last-child) {
+    margin-bottom: 10px;
+}
+.active_type {
+    font-weight: bold;
+}

@@ -1,0 +1,23 @@
+.review__wrapper {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.review__wrapper:not(.review__wrapper:last-child) {
+    margin-bottom: 16px;
+}
+
+.review__author {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.review__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
