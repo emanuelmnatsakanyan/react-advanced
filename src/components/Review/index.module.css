@@ -1,6 +1,6 @@
 .review__wrapper {
     background-color: white;
-    border-radius: 10px;
+    border-radius: 8px;
     padding: 20px;
 }
 .review__wrapper:not(.review__wrapper:last-child) {

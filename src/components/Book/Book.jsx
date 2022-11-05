@@ -1,7 +1,7 @@
 import { useState } from "react"
 import styles from './index.module.css'
 
-const Book = ({ book, style, setActiveBook }) => {
+const Book = ({ book, style, setActiveBook, counterDown }) => {
     const [count, setCount] = useState(0)
 
     const { title, author, type, annotation, price } = book
@@ -24,7 +24,7 @@ const Book = ({ book, style, setActiveBook }) => {
                 </div>
                 <p className={styles.book__price}>{price} ₽</p>
             </div>
-            <div className={styles.counter}>
+            <div style={counterDown ? { alignSelf: 'flex-end' } : null } className={styles.counter}>
                 <button className={styles.decrease} onClick={decreaseCount}>-</button>
                 <p className={styles.count}>{count}</p>
                 <button className={styles.increase} onClick={increaseCount}>+</button>

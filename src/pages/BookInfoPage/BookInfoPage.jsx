@@ -8,7 +8,7 @@ const BookInfoPage = ({book}) => {
     return (
         <main className={`container ${styles.main}`}>
             <div className={styles.main__block}>
-                <Book style={{flex: '1 1 50%'}} book={book} />
+                <Book counterDown style={{flex: '1 1 50%'}} book={book} />
                 <div className={styles.annotation__wrapper}>
                     <h1 className={styles.annotation__heading}>Аннотация</h1>
                     <p className={styles.annotation}>{annotation}</p>
