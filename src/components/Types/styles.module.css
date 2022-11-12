@@ -8,6 +8,7 @@
     max-width: 285px;
     width: 100%;
 }
+
 .type {
     color: black;
     background-color: transparent;
@@ -17,9 +18,11 @@
     text-align: left;
 
 }
+
 .type:not(.type:last-child) {
     margin-bottom: 24px;
 }
+
 .active_type {
     font-weight: bold;
 }
